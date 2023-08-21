@@ -114,7 +114,7 @@
       }
     };
   
-  window.searchmodes=JSON.parse(localStorage.quikmobmob).searchmodes||defsearchmodes;
+  window.searchmodes=JSON.parse(localStorage.quikmob).searchmodes||defsearchmodes;
 
   window.__bingimgtimeout__=setTimeout(function () {
     $('.bingimg').attr('src', './img/zy.gif').attr('data-zt', 'zy');
