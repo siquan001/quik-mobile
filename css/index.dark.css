@@ -1,0 +1,75 @@
+body.dark{
+  background-color: #222;
+  color: #fff;
+}
+body.dark .bgf-f .cover{
+  background-color: rgb(0,0,0);
+}
+body.dark .logo{
+  filter: invert(1);
+}
+body.dark .logo .t{
+  color: #000;
+}
+body.dark .searchbox{
+  background-color: #333;
+}
+body.dark .searchbox .bi,
+body.dark .searchbox input
+{
+  color: #fff;
+}
+body.dark .searchbox ul li:hover,
+body.dark .searchbox ul li.hover
+{
+  background-color: #666;
+}
+body.dark .searchcover{
+  background-color: rgba(255,255,255,.5);
+}
+body.dark .links ul li a{
+  color: #fff;
+}
+body.dark .links ul li>div.bi-pencil:hover {
+  background-color: #666;
+}
+body.dark .dialog .d-c{
+  background-color: #222;
+}
+body.dark .setting-dia .unit{
+  background-color: #333;
+}
+body.dark .setting-dia .actionbar i{
+  background-color: #222;
+}
+body.dark .card{
+  color: #000;
+  color-scheme: light;
+}
+body.dark .bg-dia ul.apilist li .title{
+  color: #333;
+}
+body.dark .bg-dia .bi-x-lg,
+body.dark .alarm-dia .bi-x-lg
+{
+  background-color: #222;
+}
+body.dark .noticelist .item{
+  background-color: #222;
+}
+body.dark .noticelist .item>.btns button{
+  color: #000;
+}
+body.dark iframe{
+  background-color: #222;
+}
+body.dark .sme-dia ul li{
+  background-color: #282828;
+}
+body.dark .sme-dia ul li .bi-x:hover,
+body.dark .sme-dia li.add:hover{
+  background-color: #444;
+}
+body.dark .sme-dia .bi-x-lg{
+  color: #fff;
+}

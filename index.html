@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <!-- htmlmin:ignore -->
+<!-- 
+        =======       ||        ||    ======    ||     // 
+      //       \\     ||        ||      ||      ||    //
+     //         \\    ||        ||      ||      ||  //
+    <<           >>   ||        ||      ||      ||<<
+     \\    \\   //    \\        //      ||      ||  \\
+      \\    \\ //      \\      //       ||      ||    \\
+        =====\\==        ======       ======    ||     \\
+    
+    ---------------------------------
+    Made By siquan001,
+    Home Page:siquan001.github.io
+
+    I hope there were no bugs.
+ -->
+  <!-- htmlmin:ignore -->
+<head>
+  <script>
+    var version={
+      name:"1.0",
+      code:1,
+      exp:'手机版适配开始的地方'
+    }
+    if(window.location.search=='?reset=1'){
+      if(confirm('是否重置QUIK主页'))
+      while(true){
+        if(prompt('请在这里输入“quik-reset”')=='quik-reset'){
+          localStorage.removeItem('quikmob');
+          window.location.href='./';
+          break;
+        }else{
+          if(!confirm('输入错误，是否继续重置QUIK主页')){
+            break;
+          }
+        }
+      }
+      
+    }
+  </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QUIK起始页</title>
+  <link href="https://cdn.bootcdn.net/ajax/libs/bootstrap-icons/1.10.4/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/index.dark.css">
+</head>
+<body>
+  <div class="initpage">
+    <p>正在加载</p>
+    <div class="anim-progress"></div>
+  </div>
+  <div style="display:none">
+    <img src="./img/in.gif">
+    <img src="./img/zy.gif">
+    <img src="./img/zby.gif">
+    <img src="./img/by.gif">
+    <img src="./img/bzy.gif">
+  </div>
+  <div class="searchbox">
+    <img src="./img/in.gif" data-zt="in" alt="" class="bingimg">
+    <div class="searchicon"><img src="https://cn.bing.com/favicon.ico" alt=""></div>
+    <input type="text" id="searchinput" placeholder="搜索或输入网址"/>
+    <button class="bi bi-search"></button>
+    <ul></ul>
+  </div>
+  <main>
+    <div class="logo">
+      <img src="./img/logo.svg" alt="">
+    </div>
+    
+    <div class="searchboxpadding"></div>
+    <div class="searchopts">
+      <ul></ul>
+    </div>
+    <div class="links">
+      <ul></ul>
+    </div>
+    <div class="iconbtns-container"></div>
+  </main>
+  <div class="searchcover"></div>
+</body>
+<script   src="https://cdn.bootcdn.net/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="./js/index.js"></script>
+
+<script src="./apps/dialog.js"></script>
+<script src="./apps/smedit.js"></script>
+<script src="./apps/links.js"></script>
+<script src="./apps/settings.js"></script>
+<script src="./apps/says.js"></script>
+<!-- <script src="./apps/break.js"></script> -->
+<script src="./apps/notice.js"></script>
+<script src="./apps/cardview.js"></script>
+<!-- <script src="./apps/time.js"></script> -->
+<script src="./apps/weather.js"></script>
+<script src="./apps/noticehf.js"></script>
+<script src="./apps/drawboard.js"></script>
+<!-- <script src="./apps/webalarm.js"></script> -->
+<script src="./apps/toolbox.js"></script>
+<script src="./apps/news.js"></script>
+<!-- <script src="./apps/note.js"></script> -->
+<script src="./apps/background.js"></script>
+<script src="./apps/ignore.js"></script>
+</html>
